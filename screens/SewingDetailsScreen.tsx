@@ -30,7 +30,7 @@ const SewingDetailsScreen = () => {
           <Text style={styles.sectionTitle}>What You'll Learn:</Text>
           <View style={styles.bulletPoints}>
             <Text style={styles.bulletPoint}>• Types of stitches</Text>
-            <Text style={styles.bulletPoint}>• Threading a sewing machine</Text>
+            <Text style={styles.bulletPoint}>• Threading a sewing Machine</Text>
             <Text style={styles.bulletPoint}>• Sewing buttons, zips, hems, seams</Text>
             <Text style={styles.bulletPoint}>• Alterations</Text>
             <Text style={styles.bulletPoint}>• Designing and sewing new garments</Text>
