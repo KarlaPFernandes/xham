@@ -10,6 +10,8 @@ export type RootStackParamList = {
   ContactUs: undefined;
   SewingDetails: undefined;
   FirstAidDetails: undefined;
+  LandscapingDetails:undefined;
+  LifeSkillsDetails:undefined;
 };
 
 // Define stack navigation prop types
@@ -17,6 +19,8 @@ export type CoursesStackParamList = {
   CoursesList: undefined;
   SewingDetails: undefined;
   FirstAidDetails: undefined;
+  LandscapingDetails:undefined;
+  LifeSkillsDetails:undefined;
 };
 
 export type CoursesStackScreenProps<T extends keyof CoursesStackParamList> = 

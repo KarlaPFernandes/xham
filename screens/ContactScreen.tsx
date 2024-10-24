@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, SafeAreaView, Image  } from 'react-native';
 
+
 const ContactScreen = () => {
   return (
     <SafeAreaView style={styles.container}>

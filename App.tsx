@@ -10,6 +10,8 @@ import CalculateScreen from './screens/CalculateScreen';
 import ContactScreen from './screens/ContactScreen';
 import SewingDetailsScreen from './screens/SewingDetailsScreen';
 import FirstAidDetailsScreen from './screens/FirstAidDetailsScreen';
+import LandscapingDetailsScreen from './screens/LandscapingDetailsScreen';
+import LifeSkillsDetailsScreen from './screens/LifeSkillsDetailsScreen';
 import { RootStackParamList, CoursesStackParamList } from './screens/RootStackParams';
 
 const Tab = createBottomTabNavigator<RootStackParamList>();
@@ -48,6 +50,20 @@ function CoursesStack() {
         component={FirstAidDetailsScreen}
         options={{
           headerTitle: "First Aid Course",
+        }}
+      />
+      <Stack.Screen 
+        name="LandscapingDetails" 
+        component={LandscapingDetailsScreen}
+        options={{
+          headerTitle: "Landscaping Course",
+        }}
+      />
+      <Stack.Screen 
+        name="LifeSkillsDetails" 
+        component={LifeSkillsDetailsScreen}
+        options={{
+          headerTitle: "Life Skills Course",
         }}
       />
     </Stack.Navigator>

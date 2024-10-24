@@ -60,6 +60,21 @@ const CoursesScreen: React.FC<CoursesScreenProps> = ({ navigation }) => {
                 navigation.navigate('FirstAidDetails');
               }}
             />
+            <Button
+              title="Landscaping Details"
+              onPress={() => {
+                toggleModal();
+                navigation.navigate('LandscapingDetails');
+              }}
+              />
+              <Button
+              title="LifeSkills Details"
+              onPress={() => {
+                toggleModal();
+                navigation.navigate('LifeSkillsDetails');
+              }}
+            />
+           
             {/* add button to the others screens down here */}
 
             {/* Close Button */}
