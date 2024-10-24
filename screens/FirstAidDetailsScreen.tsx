@@ -12,7 +12,7 @@ const FirstAidDetailsScreen = () => {
 </View>
 
         
-        <Text style={styles.title}>First Aid</Text>
+        <Text style={styles.title}>First Aid-Six Month Course</Text>
         
         <View style={styles.feeContainer}>
           <Text style={styles.feeLabel}>Fees: </Text>

@@ -12,7 +12,7 @@ const  LifeSkillsDetailsScreen= () => {
 </View>
 
         
-        <Text style={styles.title}>Life Skills</Text>
+        <Text style={styles.title}>Life Skills-Six Month Course</Text>
         
         <View style={styles.feeContainer}>
           <Text style={styles.feeLabel}>Fees: </Text>

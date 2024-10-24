@@ -12,7 +12,7 @@ const LandscapingDetailsScreen= () => {
 </View>
 
         
-        <Text style={styles.title}>Landscaping</Text>
+        <Text style={styles.title}>Landscaping-Six Month Course</Text>
         
         <View style={styles.feeContainer}>
           <Text style={styles.feeLabel}>Fees: </Text>

@@ -12,7 +12,7 @@ const SewingDetailsScreen = () => {
 </View>
 
         
-        <Text style={styles.title}>Sewing</Text>
+        <Text style={styles.title}>Sewing- Six Month Course</Text>
         
         <View style={styles.feeContainer}>
           <Text style={styles.feeLabel}>Fees: </Text>
