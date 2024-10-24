@@ -16,24 +16,24 @@ const FirstAidDetailsScreen = () => {
         
         <View style={styles.feeContainer}>
           <Text style={styles.feeLabel}>Fees: </Text>
-          <Text style={styles.feeAmount}>R1500</Text>
+          <Text style={styles.feeAmount}>1500</Text>
         </View>
         
         <View style={styles.purposeContainer}>
           <Text style={styles.sectionTitle}>Purpose:</Text>
           <Text style={styles.purposeText}>
-            To Arovide Alterations and New Garment tailoring services
+          First-aid awareness & basic life support
           </Text>
         </View>
         
         <View style={styles.learningContainer}>
           <Text style={styles.sectionTitle}>What You'll Learn:</Text>
           <View style={styles.bulletPoints}>
-            <Text style={styles.bulletPoint}>• Types of stitches</Text>
-            <Text style={styles.bulletPoint}>• Threading a sewing Machine</Text>
-            <Text style={styles.bulletPoint}>• Sewing buttons, zips, hems, seams</Text>
-            <Text style={styles.bulletPoint}>• Alterations</Text>
-            <Text style={styles.bulletPoint}>• Designing and sewing new garments</Text>
+            <Text style={styles.bulletPoint}>• Treating wounds + bleeding</Text>
+            <Text style={styles.bulletPoint}>• Treating burns + fractures</Text>
+            <Text style={styles.bulletPoint}>• Emergency scene management</Text>
+            <Text style={styles.bulletPoint}>• Cardio-pulmanary vesascitation</Text>
+            <Text style={styles.bulletPoint}>• Treating respiratory distress</Text>
           </View>
         </View>
       </View>
