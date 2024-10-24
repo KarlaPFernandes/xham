@@ -9,6 +9,7 @@ import CoursesScreen from './screens/CoursesScreen';
 import CalculateScreen from './screens/CalculateScreen';
 import ContactScreen from './screens/ContactScreen';
 import SewingDetailsScreen from './screens/SewingDetailsScreen';
+import FirstAidDetailsScreen from './screens/FirstAidDetailsScreen';
 import { RootStackParamList, CoursesStackParamList } from './screens/RootStackParams';
 
 const Tab = createBottomTabNavigator<RootStackParamList>();
@@ -40,6 +41,13 @@ function CoursesStack() {
         component={SewingDetailsScreen}
         options={{
           headerTitle: "Sewing Course",
+        }}
+      />
+      <Stack.Screen 
+        name="FirstAidDetails" 
+        component={FirstAidDetailsScreen}
+        options={{
+          headerTitle: "First Aid Course",
         }}
       />
     </Stack.Navigator>

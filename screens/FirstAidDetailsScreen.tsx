@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, View, Text, SafeAreaView, Image } from 'react-native'; // Added Image
 
-const SewingDetailsScreen = () => {
+const FirstAidDetailsScreen = () => {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.content}>
@@ -12,7 +12,7 @@ const SewingDetailsScreen = () => {
 </View>
 
         
-        <Text style={styles.title}>Sewing</Text>
+        <Text style={styles.title}>First Aid</Text>
         
         <View style={styles.feeContainer}>
           <Text style={styles.feeLabel}>Fees: </Text>
@@ -112,4 +112,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default SewingDetailsScreen;
+export default FirstAidDetailsScreen;
